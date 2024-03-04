@@ -1,0 +1,29 @@
+{
+    "name": "MinskJS Theme",
+    "version": "1.0",
+    "manifest_version": 3,
+    "theme": {
+        "images": {
+            "theme_ntp_background": "theme_ntp_background.png",
+            "theme_ntp_attribution": "theme_ntp_attribution.png"
+        },
+        "colors": {
+            "frame": [245,127,32],
+            "toolbar": [239,60,81],
+            "tab_text": [255,255,255],
+            "tab_background_text": [255,255,255],
+            "bookmark_text": [255,255,255],
+            "ntp_background": [255,255,255],
+            "ntp_text": [226,29,63],
+            "ntp_link": [211,37,137],
+            "button_background": [242,112,112,1]
+        },
+        "tints": {
+            "buttons": [0,0,1]
+        },
+        "properties": {
+            "ntp_background_alignment": "top",
+            "ntp_background_repeat": "no-repeat"
+        }
+    }
+}

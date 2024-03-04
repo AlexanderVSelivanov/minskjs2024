@@ -1,0 +1,9 @@
+ytd-comments,
+ytd-watch-next-secondary-results-renderer,
+ytd-rich-grid-renderer,
+ytd-live-chat-frame,
+#related,
+#donation-shelf,
+#chat-container {
+    display: none !important;
+}

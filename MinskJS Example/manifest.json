@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "MinskJS Example",
+    "version": "1.0",
+    "icons": {
+        "48": "icon.png"
+    },
+    "permissions": [
+        "tts",
+        "tabs",
+        "activeTab",
+        "bookmarks",
+        "scripting",
+        "sidePanel",
+        "notifications"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "service-worker.js",
+        "type": "module"
+    },
+    "action": {
+        "default_title": "Click to open panel"
+    },
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "commands": {
+        "discardAllTabs": {
+            "suggested_key": {
+                "default": "Alt+R"
+            },
+            "description": "Discard all tabs"
+        }
+    }
+}
